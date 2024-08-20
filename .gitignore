@@ -1,0 +1,30 @@
+# ignore virtual env
+venv/
+
+# ignore env variables
+.env/
+.env
+*.env 
+*.env*.local
+
+# ignore debug log
+debug.log
+
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Django
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+*.pyc
+
+dig_ocean_key
+dig_ocean_key.pub
